@@ -3,7 +3,7 @@ class IconSelect {
     // Option Defaults
     place = 'attached'; // 'attached', 'top', 'center', 'bottom'
     attachTo = '.icon-select'; // An element id or class
-    attachPosition = 'bottom-middle'; // top-left, top-middle, top-right, bottom-left, bottom-middle, bottom-right, left, right
+    attachPosition = 'bottom-left'; // top-left, top-middle, top-right, bottom-left, bottom-middle, bottom-right, left, right
     chevronShow = false; // TODO unimplemented
     addIcons = null; // 'additional' or 'replace'
     displayType = 'hover'; // click, hover
