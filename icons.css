@@ -1,0 +1,122 @@
+.icon-select {
+  cursor: pointer;
+}
+
+.icon-select * {
+  cursor: default;
+}
+
+.icon-select-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 98;
+}
+
+.icon-select-container.top {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.icon-select-container.top .icon-select-flex {
+  margin-top: 3rem;
+}
+
+.icon-select-container.center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.icon-select-container.bottom {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.icon-select-container.bottom .icon-select-flex {
+  margin-bottom: 3rem;
+}
+
+.icon-select-container.hide {
+  display: none;
+}
+
+.icon-select-mouseover {
+  position: absolute;
+}
+
+.icon-select-flex, .icon-select-absolute {
+  margin: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  background: #f2f2f2;
+  z-index: 9;
+  width: 282px;
+}
+
+.icon-select-flex *, .icon-select-absolute * {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+}
+
+.icon-select-flex header, .icon-select-absolute header {
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  border-bottom: 1px solid #ced4da;
+}
+
+.icon-select-flex header input, .icon-select-absolute header input {
+  margin-top: .5rem;
+}
+
+.icon-select-flex .icon-select-icons, .icon-select-absolute .icon-select-icons {
+  background: white;
+  padding: 1rem;
+  border-radius: 4px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.icon-select-flex .icon-select-icons .icon-select-icon, .icon-select-absolute .icon-select-icons .icon-select-icon {
+  border-radius: 3px;
+  border: 1px solid #ced4da;
+  padding: .75rem;
+  margin: .25rem;
+}
+
+.icon-select-flex .icon-select-icons .icon-select-icon:hover, .icon-select-absolute .icon-select-icons .icon-select-icon:hover {
+  cursor: pointer;
+  background: #f2f2f2;
+}
+
+.icon-select-absolute {
+  margin: 0;
+}
+/*# sourceMappingURL=icons.css.map */
