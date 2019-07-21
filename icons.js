@@ -4,7 +4,7 @@ class IconSelect {
     place = 'attached'; // 'attached', 'top', 'center', 'bottom'
     attachTo = '.icon-select'; // An element id or class
     attachPosition = 'bottom-middle'; // top-left, top-middle, top-right, bottom-left, bottom-middle, bottom-right, left, right
-    chevronShow = true; // TODO unimplemented
+    chevronShow = false; // TODO unimplemented
     addIcons = null; // 'additional' or 'replace'
     displayType = 'hover'; // click, hover
     debug = false;
